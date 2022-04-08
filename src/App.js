@@ -1,18 +1,13 @@
 import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <label>Province: </label>
-      <select>
-        <option>Select</option>
-      </select>
-      <br />
-      <label>District: </label>
-      <select>
-        <option>Select</option>
-      </select>
+      <button>+</button>
+      <p>Select</p>
+      <button>-</button>
+      <button>Reset</button>
     </div>
   );
 }
