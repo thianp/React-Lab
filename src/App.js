@@ -4,13 +4,15 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <h1>Hello My Friend</h1>
-      <p>Friend list</p>
-      <ul>
-        <li>John</li>
-        <li>Jack</li>
-        <li>Jane</li>
-      </ul>
+      <label>Province: </label>
+      <select>
+        <option>Select</option>
+      </select>
+      <br />
+      <label>District: </label>
+      <select>
+        <option>Select</option>
+      </select>
     </div>
   );
 }
